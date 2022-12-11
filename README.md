@@ -1,6 +1,8 @@
 # SEU_Chargers
 方便东南大学师生快速查询校内充电桩的实时使用情况
 
+## 体验方式：微信搜索小程序 东南Chargers
+
 ## 以下通过Fiddler抓包实现
 ### 首先，从响应中获取 openid 和 phone，继而获取 token
 ### 调试过程中发现openid和phone可以为任意值，则可以向mapi.7mate.cn/api/authorizations 发送 openid 和 phone 获取token
