@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="top_tip">下拉刷新</view>
+  <view class="title">SEU_Chargers</view>
+
+  <view class="top_tip">充电桩实时使用情况</view>
+  
+  <image src="../../images/map.png"></image>
+  <view class="power" wx:key="title" wx:for="{{powerList}}" wx:for-item="power">
+    <view class="power_info" data-index="{{index}}" >
+      <view class="power_info_text">
+        <view class="power_info_text_title">{{power.title}}</view>
+        <view class="power_info_text_tip">{{power.tip}}</view>
+      </view>
+    </view>
+
+  </view>
+
+  <view class="environment">----我也是有底线的----</view>
+
+</view>
