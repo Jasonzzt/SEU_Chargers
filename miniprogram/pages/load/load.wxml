@@ -1,0 +1,7 @@
+<!--pages/load.wxml-->
+<view class="box">
+  <view class="circle_bx">
+    <view></view>
+  </view>
+  <text class="load_text">数据加载中</text>
+</view>

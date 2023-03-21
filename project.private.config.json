@@ -1,0 +1,8 @@
+{
+  "setting": {
+    "compileHotReLoad": true
+  },
+  "condition": {},
+  "description": "充电桩实时使用情况显示",
+  "projectname": "SEU充电桩实时查询"
+}
